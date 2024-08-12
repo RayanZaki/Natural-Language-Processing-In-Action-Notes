@@ -29,3 +29,31 @@ Two vatiations:
 ## 3.3 Zipf's Law:
 Zipf’s law states that given some corpus of natural language utterances, the
 frequency of any word is inversely proportional to its rank in the frequency table.
+
+![alt text](image.png)
+
+## 3.4 Topic modeling:
+
+### Return to zipf:
+
+- Even if two words have similar number of occurences. The idf of the larger freq is exponentially bigger
+- To counter that we use the log
+
+hence tfidf will look like this:
+![alt text](image-1.png)
+
+
+
+### TFIDF:
+    It assignts a score to words based on their importance in a docuemnt given the usage across a corpus
+
+# Summary
+
+- Any web-scale search engine with millisecond response times has the power of a TF-IDF term document matrix hidden under the hood.
+- Term frequencies must be weighted by their inverse document frequency to ensure the most important, most meaningful words are given the heft they deserve.
+- Zipf’s law can help you predict the frequencies of all sorts of things, including words, characters, and people.
+- The rows of a TF-IDF term document matrix can be used as a vector representation of the meanings of those individual words to create a vector space model of word semantics.
+- Euclidean distance and similarity between pairs of high dimensional vectors doesn’t adequately represent their similarity for most NLP applications.
+- Cosine distance, the amount of “overlap” between vectors, can be calculated efficiently by just multiplying the elements of normalized vectors together and summing up those products.
+- Cosine distance is the go-to similarity score for most natural language vector representations.
+
