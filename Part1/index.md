@@ -9,3 +9,5 @@ Part 1 of your NLP journey introduces you to practical applications of natural l
 | 4       | Discusses methods for compressing vectors into more manageable topic vectors.                 |
 
 By the end of this section, you'll be equipped with tools for various NLP applications like semantic search and chatbots.
+
+[Next Page](./Chapter1/index.md)
