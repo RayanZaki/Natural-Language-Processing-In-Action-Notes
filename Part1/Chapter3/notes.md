@@ -57,3 +57,4 @@ hence tfidf will look like this:
 - Cosine distance, the amount of “overlap” between vectors, can be calculated efficiently by just multiplying the elements of normalized vectors together and summing up those products.
 - Cosine distance is the go-to similarity score for most natural language vector representations.
 
+[Next Page](../Chapter4/index.md)
