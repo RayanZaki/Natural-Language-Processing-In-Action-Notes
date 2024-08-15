@@ -125,5 +125,5 @@ print(lemmatized_word)  # Output: "run"
 
 
 
-[Next Page](../Chapter3/)
+[Next Page](../Chapter3/index.md)
 ## TODO: Sentiment analysis project: page 67
